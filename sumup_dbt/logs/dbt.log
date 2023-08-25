@@ -1,0 +1,154 @@
+[0m19:05:03.373303 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000140BCC63A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000140BCBB8E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000140BCB7F4D0>]}
+
+
+============================== 19:05:03.373303 | 9b11571a-009a-4068-adb1-7697f43c69e3 ==============================
+[0m19:05:03.373303 [info ] [MainThread]: Running with dbt=1.6.0
+[0m19:05:03.373303 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\z-fer\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m19:05:18.033554 [debug] [MainThread]: Starter project path: C:\Frake\Projects_dev\sumup_dbt\sumup_dbt_env\Lib\site-packages\dbt\include\starter_project
+[0m19:05:18.089874 [info ] [MainThread]: 
+Your new dbt project "sumup" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:05:18.091872 [info ] [MainThread]: Setting up your profile.
+[0m19:07:14.382174 [info ] [MainThread]: Profile sumup written to C:\Users\z-fer\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:07:14.395008 [debug] [MainThread]: Command `dbt init` succeeded at 19:07:14.395008 after 131.04 seconds
+[0m19:07:14.395008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000140BD0FB610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000140BCBECED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000140BCC80D10>]}
+[0m19:07:14.396014 [debug] [MainThread]: Flushing usage events
+[0m19:07:33.330023 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002424DB7A090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002424E430F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002424E4334D0>]}
+
+
+============================== 19:07:33.330023 | 22067122-a6c8-4c50-a6a0-5d81d0809131 ==============================
+[0m19:07:33.330023 [info ] [MainThread]: Running with dbt=1.6.0
+[0m19:07:33.330023 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\z-fer\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:07:33.330023 [info ] [MainThread]: dbt version: 1.6.0
+[0m19:07:33.330023 [info ] [MainThread]: python version: 3.11.4
+[0m19:07:33.330023 [info ] [MainThread]: python path: C:\Frake\Projects_dev\sumup_dbt\sumup_dbt_env\Scripts\python.exe
+[0m19:07:33.330023 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m19:07:33.345653 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m19:07:33.354156 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m19:07:33.356156 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m19:07:33.358238 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m19:07:33.359161 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m19:07:33.548470 [info ] [MainThread]: Using profiles dir at C:\Users\z-fer\.dbt
+[0m19:07:33.548470 [info ] [MainThread]: Using profiles.yml file at C:\Users\z-fer\.dbt\profiles.yml
+[0m19:07:33.564163 [info ] [MainThread]: Using dbt_project.yml file at C:\Frake\Projects_dev\sumup_dbt\dbt_project.yml
+[0m19:07:33.564163 [info ] [MainThread]: Configuration:
+[0m19:07:33.564163 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m19:07:33.564163 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:07:33.564163 [info ] [MainThread]: Required dependencies:
+[0m19:07:33.564163 [debug] [MainThread]: Executing "git --help"
+[0m19:07:33.595385 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:07:33.595385 [debug] [MainThread]: STDERR: "b''"
+[0m19:07:33.596386 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:07:33.597385 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m19:07:33.597385 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:07:33.598393 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "d", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+Runtime Error
+  Credentials in profile "dbttutorial", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "exit", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "jaffle-shop", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+Runtime Error
+  Credentials in profile "jaffle_shop", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+
+[0m19:07:33.599385 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Frake\Projects_dev\sumup_dbt\dbt_project.yml> not found
+
+[0m19:07:33.600396 [debug] [MainThread]: Command `dbt debug` failed at 19:07:33.600396 after 0.28 seconds
+[0m19:07:33.601387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002424E6C90D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002424786ED10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002424E011F10>]}
+[0m19:07:33.601387 [debug] [MainThread]: Flushing usage events
+[0m19:11:05.697098 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A0E92A3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A0F29F910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A0F381650>]}
+
+
+============================== 19:11:05.701110 | 2a245b31-61cc-4f2d-a7f6-95caf8a22d94 ==============================
+[0m19:11:05.701110 [info ] [MainThread]: Running with dbt=1.6.0
+[0m19:11:05.702096 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\z-fer\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m19:11:05.702096 [info ] [MainThread]: dbt version: 1.6.0
+[0m19:11:05.703111 [info ] [MainThread]: python version: 3.11.4
+[0m19:11:05.704098 [info ] [MainThread]: python path: C:\Frake\Projects_dev\sumup_dbt\sumup_dbt_env\Scripts\python.exe
+[0m19:11:05.704098 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m19:11:05.937306 [info ] [MainThread]: Using profiles dir at C:\Users\z-fer\.dbt
+[0m19:11:05.938306 [info ] [MainThread]: Using profiles.yml file at C:\Users\z-fer\.dbt\profiles.yml
+[0m19:11:05.938306 [info ] [MainThread]: Using dbt_project.yml file at C:\Frake\Projects_dev\sumup_dbt\dbt_project.yml
+[0m19:11:05.940313 [info ] [MainThread]: adapter type: snowflake
+[0m19:11:05.940313 [info ] [MainThread]: adapter version: 1.6.1
+[0m19:11:05.941312 [info ] [MainThread]: Configuration:
+[0m19:11:05.941312 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:11:05.942309 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:11:05.942309 [info ] [MainThread]: Required dependencies:
+[0m19:11:05.943309 [debug] [MainThread]: Executing "git --help"
+[0m19:11:05.973306 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:11:05.974310 [debug] [MainThread]: STDERR: "b''"
+[0m19:11:05.974310 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:11:05.975309 [info ] [MainThread]: Connection:
+[0m19:11:05.976309 [info ] [MainThread]:   account: ZBKUXJE-HE85214
+[0m19:11:05.976309 [info ] [MainThread]:   user: frake
+[0m19:11:05.976309 [info ] [MainThread]:   database: sumup
+[0m19:11:05.977310 [info ] [MainThread]:   warehouse: compute_wh
+[0m19:11:05.977310 [info ] [MainThread]:   role: Admin
+[0m19:11:05.978309 [info ] [MainThread]:   schema: dbt
+[0m19:11:05.978309 [info ] [MainThread]:   authenticator: None
+[0m19:11:05.979309 [info ] [MainThread]:   private_key: None
+[0m19:11:05.979309 [info ] [MainThread]:   private_key_path: None
+[0m19:11:05.980308 [info ] [MainThread]:   private_key_passphrase: None
+[0m19:11:05.980308 [info ] [MainThread]:   token: None
+[0m19:11:05.980308 [info ] [MainThread]:   oauth_client_id: None
+[0m19:11:05.981307 [info ] [MainThread]:   query_tag: None
+[0m19:11:05.981307 [info ] [MainThread]:   client_session_keep_alive: False
+[0m19:11:05.982306 [info ] [MainThread]:   host: None
+[0m19:11:05.982306 [info ] [MainThread]:   port: None
+[0m19:11:05.982306 [info ] [MainThread]:   proxy_host: None
+[0m19:11:05.983307 [info ] [MainThread]:   proxy_port: None
+[0m19:11:05.983307 [info ] [MainThread]:   protocol: None
+[0m19:11:05.984308 [info ] [MainThread]:   connect_retries: 1
+[0m19:11:05.985307 [info ] [MainThread]:   connect_timeout: None
+[0m19:11:05.985307 [info ] [MainThread]:   retry_on_database_errors: False
+[0m19:11:05.986306 [info ] [MainThread]:   retry_all: False
+[0m19:11:05.986306 [info ] [MainThread]:   insecure_mode: False
+[0m19:11:05.987306 [info ] [MainThread]:   reuse_connections: None
+[0m19:11:05.987306 [info ] [MainThread]: Registered adapter: snowflake=1.6.1
+[0m19:11:05.988307 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m19:11:05.989106 [debug] [MainThread]: Using snowflake connection "debug"
+[0m19:11:05.989106 [debug] [MainThread]: On debug: select 1 as id
+[0m19:11:05.989106 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:11:07.149492 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m19:11:07.149492 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m19:11:07.150493 [debug] [MainThread]: On debug: No close available on handle
+[0m19:11:07.150493 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m19:11:07.151484 [info ] [MainThread]: [31m1 check failed:[0m
+[0m19:11:07.151484 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Frake\Projects_dev\sumup_dbt\dbt_project.yml> not found
+
+[0m19:11:07.152483 [debug] [MainThread]: Command `dbt debug` failed at 19:11:07.152483 after 1.47 seconds
+[0m19:11:07.153482 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:11:07.153482 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A0EE56F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A0F756010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A0F74BFD0>]}
+[0m19:11:07.154482 [debug] [MainThread]: Flushing usage events

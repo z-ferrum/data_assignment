@@ -1,0 +1,4 @@
+{
+  "sqltools.highlightQuery": false,
+  "dbt.queryLimit": 500
+}
