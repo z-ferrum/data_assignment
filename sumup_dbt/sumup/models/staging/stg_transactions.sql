@@ -6,10 +6,11 @@ final as (
     select
         id::int as id,
         device_id::int as device_id,
-        {{ clean_product_sku('product_sku') }} as product_sku, -- Cleans from 'v' in the sku code. (Ctrl + left click on the macro name to see the code)
-                                                                -- assumes this 'v' is the only common error in the real data (which is unlikely)
-                                                                -- Yet preventing all the possible errors is more compute consuming
-                                                                -- Actually, there is no need for a marcos, but I wanted to use a macros somewhere :)
+        {{ clean_product_sku('product_sku') }} as product_sku, 
+        -- Cleans from 'v' in the sku code. (Ctrl + left click on the macro name to see the code)
+        -- assumes this 'v' is the only common error in the real data (which is unlikely)
+        -- Yet preventing all the possible errors is more compute consuming
+        -- Actually, there is no need for a marcos, but I wanted to use a macros somewhere :)
         category_name,  -- not useful, completely random. It is only kept to show it's random with int_products draft.
         product_name,  -- same as category name
         status::varchar(255) as status,  -- may consider switching to TINYINT (with seed-dictionary) or CHAR

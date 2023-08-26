@@ -7,9 +7,6 @@ transactions as (
 devices as (
     select * from {{ ref ('stg_devices') }}
 ),
-stores as (
-    select * from {{ ref ('stg_stores') }}
-),
 
 -- LOGIC
 final as (
